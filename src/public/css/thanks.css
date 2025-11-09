@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.message .main-text {
+    font-size: 1.2rem;
+    color: #5a4b3b;
+    margin-bottom: 20px;
+}
+
+.home-button {
+    display: inline-block;
+    background-color: #8b7b6d;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.home-button:hover {
+    background-color: #6d5e51;
+}
+
+/* 背景の Thank you */
+.background-text {
+    position: absolute;
+    font-size: 11rem;
+    /* 文字サイズを少し大きく */
+    color: rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    top: 60%;
+    /* ← 背景テキストをやや下に配置 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    white-space: nowrap;
+    line-height: 1;
+    text-align: center;
+}

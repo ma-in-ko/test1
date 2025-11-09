@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+/* 全体の基本設定 */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #f4ede7;
+    color: #5b4636;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー部分 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #fff;
+}
+
+.header__title {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    color: #5b4636;
+    margin: 0 auto;
+}
+
+.header__login {
+    color: #b1a094;
+    text-decoration: none;
+    border: 1px solid #d8cfc4;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: 0.2s;
+    background-color: #f8f5f2;
+}
+
+.header__login:hover {
+    background-color: #d8cfc4;
+    color: #fff;
+}
+
+/* メイン全体を中央寄せ */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Register のタイトル */
+.main__title {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    color: #5b4636;
+    margin-bottom: 30px;
+}
+
+/* フォームの白い枠 */
+.form__wrapper {
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    width: 380px;
+}
+
+/* ラベルと入力欄の縦並び */
+.form__wrapper label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form__wrapper input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d8cfc4;
+    border-radius: 4px;
+    background-color: #f8f5f2;
+    font-size: 14px;
+}
+
+/* 登録ボタン */
+.btn {
+    display: block;
+    width: 30%;
+    margin: 20px auto 0;
+    padding: 10px 0;
+    background-color: #8b7e74;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #6f6259;
+}
+
+/* エラー表示 */
+.error {
+    color: #d9534f;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}

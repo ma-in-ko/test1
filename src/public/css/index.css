@@ -1,0 +1,167 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    color: #5a4b3d;
+    border-radius: 8px;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #D2B48C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: serif;
+    text-align: center;
+    display: block;
+}
+
+.contact-form__content {
+    margin: 60px auto;
+    padding: 40px 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form__heading p {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #D2B48C;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.form {
+    margin: 0 auto;
+    width: 90%;
+    text-align: left;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    width: 30%;
+    font-weight: bold;
+
+}
+
+.form__label--item {
+    font-weight: bold;
+    color: #D2B48C;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    color: red;
+}
+
+.form__group-content {
+    width: 65%;
+}
+
+.form__error {
+    height: 5px;
+    color: #ff0000;
+    font-size: 0.9rem;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+}
+
+/* 入力フォーム */
+.form__input--text input,
+.form__input--textarea textarea,
+.form__input--select select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* お名前2つのフィールド */
+.name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.name-inputs input {
+    width: 100%;
+}
+
+/* ラジオボタン */
+.form__input--radio label {
+    margin-right: 20px;
+}
+
+/* 電話番号3分割 */
+.tel-inputs {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tel-inputs input {
+    width: 70px;
+    text-align: center;
+}
+
+/* セレクトボックス */
+.form__input--select select {
+    height: 40px;
+}
+
+/* ボタン */
+.form__button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form__button-submit {
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #5a4b3d;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form__button-submit:hover {
+    background: #3c3127;
+}
+
+
+
+/* ラジオ・電話番号など複数入力欄にも整列 */
+.form__input--radio+.form__error,
+.tel-inputs+.form__error {
+    margin-top: 8px;
+}

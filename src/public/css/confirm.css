@@ -1,0 +1,106 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    color: #5a4b3d;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー */
+.header {
+    background: #fff;
+    border-bottom: 1px solid #e5d7c2;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #5a4b3d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: serif;
+}
+
+/* メインコンテンツ */
+.confirm__content {
+    margin: 60px auto;
+    padding: 40px 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.confirm__heading h2 {
+    font-size: 26px;
+    color: #5a4b3d;
+    font-family: serif;
+}
+
+/* テーブル */
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e0d6cc;
+}
+
+
+.confirm-table th,
+.confirm-table td {
+    border: 1px solid #5a4b3d;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.confirm-table th {
+    background-color: #b8a690;
+    color: #fff;
+    width:30%;
+}
+
+
+/* ボタン */
+.form__button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.form__button-submit,
+.form__button-edit {
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 10px;
+}
+
+.form__button-submit {
+    background: #5a4b3d;
+    color: #fff;
+}
+
+.form__button-submit:hover {
+    background: #3c3127;
+}
+
+.form__button-edit {
+    background: none;
+    border: none;
+    color: #5a4b3d;
+    text-decoration: underline;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
