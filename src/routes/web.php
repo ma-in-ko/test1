@@ -22,4 +22,6 @@ Route::post('/confirm',[ContactController::class, 'confirm']);
 
 Route::post('/thanks', [ContactController::class, 'store']);
 
-Route::get('/users/',[UserController::class, 'index']);
+Route::get('/register',[UserController::class, 'register']);
+
+Route::post('/login',[UserController::class,'login']);

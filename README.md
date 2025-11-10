@@ -1,8 +1,9 @@
 # お問い合わせフォーム
 
+
 ## 環境構築
 - Dockerビルド
- 1. git clone:
+ 1. git clone リンク：https://github.com/ma-in-ko/test1.git
  2. docker-compose up -d --build
 - Laravel環境構築
  1. docker-compose exec php bash
@@ -21,8 +22,8 @@
  [ER図](../../../coachtech/ERdiagrams/test1.drawio.png)
 
 ## URL
-* 環境開発:[http://localhost/](http://localhost/)
-* phpMyAdmin:[http://localhost:8080/](http://localhost:8080/)
+* 環境開発：[http://localhost/](http://localhost/)
+* phpMyAdmin：[http://localhost:8080/](http://localhost:8080/)
 
 
 
